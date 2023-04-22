@@ -20,4 +20,4 @@ function sumArray(arr) {
   return (result = `min:${min}  max:${max} odd:${odd} even:${even} sum:${sum}`);
 }
 
-console.log(sumArray(words)); // 25
+console.log(sumArray(words)); 
