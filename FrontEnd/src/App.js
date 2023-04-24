@@ -7,9 +7,9 @@ import HomePage from './page/Home'
 
 function App() {
 	return (
-		<div className='flex flex-col justify-between max-h-screen'>
+		<div class='flex flex-col h-screen justify-between'>
 			<Menu />
-			<main className='h-full'>
+			<main className='mb-auto'>
 				<Routes>
 					<Route path='/' element={<HomePage />} />
 				</Routes>

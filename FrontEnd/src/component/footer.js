@@ -2,21 +2,19 @@ import React from 'react'
 
 const Footer = () => {
 	return (
-		<div className='border-t-2 border-gray-200 fixed bottom-0 mx-auto w-full'>
-			<div className='flex items-center justify-between text-center mx-auto my-6 text-sm md:text-base container'>
-				<span>
-					{`This website is created as part of Hlsolutions program. The materials
-					contained on this website are provided for general information only
-					and do not constitute any form of advice. HLS assumes no
-					responsibility for the accuracy of any particular statement and
-					accepts no liability for any loss or damage which may arise from
-					reliance on the information contained on this site.`}
-				</span>
+		<footer class='text-center w-full border-gray-100 border-t-2'>
+			<div class='container py-3 text-neutral-400 mx-auto xl:px-72'>
+				<div class='mb-6 xl:mb-0 text-center text-xs'>
+					<p>
+						{`This website is created as part of Hlsolutions program. The
+						materials contained on this website are provided for general
+					information only and do not constitute any form of advice. HLS assumes no responsibility for the accuracy of any particular statement and
+					accepts no liability for any loss or damage which may arise from reliance on the information contained on this site.`}
+					</p>
+				</div>
 			</div>
-			<span className='block text-sm text-gray-500 text-center break-words mb-2'>
-				Copyright 2021 HLS
-			</span>
-		</div>
+			<div class='pb-4 text-center text-sm'>Copyright 2021 HLS</div>
+		</footer>
 	)
 }
 
